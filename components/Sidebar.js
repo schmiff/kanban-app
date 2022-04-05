@@ -9,12 +9,10 @@ const Sidebar = () => {
                         <div className="pb-1 opacity-100">
                                 <Image src={logo} width={50} height={35}/>
                         </div>
-                        <div className="text-slate-200 text-2xl pt-2 pl-2 pb-4 font-[Poppins] opacity-100">
+                        <div className= "font-bold text-slate-200 text-2xl pt-2 pl-2 pb-4 font-[Poppins] opacity-100">
                                 Flying Notes                
-                         </div>      
-                </div>
-        
-                
+                        </div>      
+                </div>     
         </div>
   )
 }
