@@ -3,7 +3,13 @@ import Sidebar from './Sidebar'
 
 const Layout = () => {
   return (
-    <Sidebar/>
+        <div className="bg-slate-700 h-screen w-full relative flex overflow-hidden">
+                <Sidebar/>
+                <div>
+                        Hallo 
+                </div>
+        </div>
+    
   )
 }
 
