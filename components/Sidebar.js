@@ -11,7 +11,7 @@ const Sidebar = () => {
                                 <Image src={logo} width={40} height={28}/>
                         </div>
                         <div className= "font-mono font-bold text-slate-200 text-xl pt-2 pb-3 font-[Helvetica] opacity-100">
-                                FlyNotes                      
+                                FlyTasks                     
                         </div>                              
                 </div>
                 <div className="flex flex-col w-full h-full justify-center space-y-14 ">
