@@ -18,7 +18,7 @@ const Sidebar = () => {
                         <div className="flex h-20 w-30 items-center justify-center">
                                 <div className='flex flex-col leading-3 w-28 items-center text-sm text-slate-200 font-mono font-bold font-[Helvetica] cursor-pointer rounded-xl hover:bg-slate-200 hover:text-slate-800 hover:ease-linear hover:duration-200 py-2'>
                                         <MdPeopleOutline size={33}/>
-                                        <div>
+                                        <div className="select-none">
                                                 Mangage        
                                         </div> 
                                 </div>        
@@ -26,7 +26,7 @@ const Sidebar = () => {
                         <div className="flex h-20 w-30 items-center justify-center">
                                 <div className='flex flex-col w-28 items-center text-sm text-slate-200 font-bold font-mono font-[Helvetica] cursor-pointer rounded-xl hover:bg-slate-200 hover:text-slate-800 hover:ease-linear hover:duration-200 py-2'>
                                         <MdDashboard size={33}/>
-                                        <div >
+                                        <div className="select-none" >
                                                 Boards        
                                         </div> 
                                 </div>        
@@ -34,7 +34,7 @@ const Sidebar = () => {
                         <div className="flex h-20 w-30 items-center justify-center">
                                 <div className='flex leading-6 flex-col w-28 items-center text-sm text-slate-200 font-mono font-bold font-[Helvetica] cursor-pointer rounded-xl hover:bg-slate-200 hover:text-slate-800 hover:ease-linear hover:duration-200 py-2'>
                                         <MdCalendarToday size={31}/>
-                                        <div >
+                                        <div className="select-none">
                                                 Schedule        
                                         </div> 
                                 </div>        
@@ -42,7 +42,7 @@ const Sidebar = () => {
                         <div className="flex h-20 w-30 items-center justify-center">
                                 <div className='flex w-28 flex-col items-center text-sm text-slate-200 font-mono font-bold font-[Helvetica] cursor-pointer rounded-xl hover:bg-slate-200 hover:text-slate-800 hover:ease-linear hover:duration-200 py-2'>
                                         <MdInsertChartOutlined size={33}/>
-                                        <div >
+                                        <div className="select-none">
                                                 Report        
                                         </div> 
                                 </div>        
