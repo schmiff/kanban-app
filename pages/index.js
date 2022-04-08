@@ -5,7 +5,7 @@ import Sidebar from '../components/Sidebar'
 
 export default function Home(){
   return (
-    <div className="h-screen">
+    <div className="h-screen scroll-auto">
       <Layout/>
     </div>
 

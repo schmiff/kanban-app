@@ -6,7 +6,7 @@ import Content from './Content'
 
 const Layout = () => {
   return (
-        <div className="bg-slate-700 h-full w-full relative flex">
+        <div className="bg-slate-700 relative h-full flex pb-20">
                 <Sidebar/>
                 <div className="flex flex-col h-full w-full">
                         <Headerbar />
