@@ -6,9 +6,6 @@ const Content = () => {
           <div className="pl-40 bg-slate-700 pb-10" >
                 <Boards/>
                 <Boards/>
-                <Boards/>
-                <Boards/>
-                <Boards/>
           </div>
     
   )
